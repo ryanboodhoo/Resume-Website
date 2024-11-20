@@ -16,3 +16,5 @@ document.getElementById("new-quote").addEventListener("click", fetchRandomQuote)
 
 // Initial quote display
 fetchRandomQuote();
+
+//
