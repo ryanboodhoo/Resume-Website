@@ -267,3 +267,37 @@ span{
         margin-top: 4rem;
     }
 }
+
+
+#quote {
+    font-size: 2rem;
+    margin: 20px;
+    padding: 20px;
+    background-color: black;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    align-items: left;
+    padding-right: 200px;
+    
+}
+
+#new-quote {
+    background-color: #b74b4b;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#new-quote:hover {
+    background-color: #b74b4b;
+}
+
+/* In your CSS file */
+h3.Quote-Header {
+    font-size: 25px; /* Adjust the value to change the size */
+    padding-top: 20px;
+  }
+  

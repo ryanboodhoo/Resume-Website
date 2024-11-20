@@ -13,7 +13,7 @@
         <a href="#" class="logo">My Website</a>
 
         <nav>
-            <a href="#" class="active"> Home</a>
+            <a href="index.html" class="active"> Home</a>
              <a href="exprience.html" >Experience</a>
          </nav>
     </header>
@@ -25,15 +25,23 @@
             <h1>Hi, It's <span>Ryan</span></h1>
             <h3 class="typing-text">I'm a <span></span></h3>
             <p>I am an aspiring App Developer passionate about creating functional and user-friendly applications for mobile, web, and desktop platforms. With a strong foundation in programming languages like Java, Swift, and Python, I focus on building intuitive user experiences and robust solutions. I enjoy tackling real-world challenges through hands-on projects and continuously expanding my skills in development frameworks, UI/UX design, and debugging techniques.</p>
+            
+            <h3 class = "Quote-Header">Inspirational Quote</h3>
+            <p id="quote"></p>
+            <button id="new-quote">New Quote</button>
+            
+            
             <div class="social-icons">
                 <a href="https://www.linkedin.com/in/ryan-boodhoo-580baa2a7/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
                 <a href="https://github.com/ryanboodhoo" target="_blank"><i class="fa-brands fa-github"></i></a>
                  <a href="https://www.instagram.com/ryanboodhoo8/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
             </div>
             <footer>
+
                 <p>&copy; <span id="currentYear"></span> Ryan's Website. All rights reserved.</p>
-                <script>
-                    document.getElementById("currentYear").textContent = new Date().getFullYear();
+                <script src="script.js">
+   
+  
                  </script>
             </footer>
         </div>
